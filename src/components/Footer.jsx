@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Stack, Heading, VStack, Button, HStack } from '@chakra-ui/react';
+import {AiOutlineSend} from 'react-icons/ai';
 
 const Footer = () => {
   return (
@@ -20,6 +21,7 @@ const Footer = () => {
             variant={'ghost'}
             borderRadius={'0 20px 20px 0'}
             >
+              <AiOutlineSend/>
 
             </Button>
           </HStack>
